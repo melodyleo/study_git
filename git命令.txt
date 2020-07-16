@@ -1,0 +1,15 @@
+1. 配置git用户信息
+    git config --global user.name '自己的用户名'
+    git config --global user.email '自己的邮箱'
+    git conifig --list 查看所有的git配置信息
+    git config --global --list 查看全局的git配置信息
+
+2. 其他命令
+    git init 初始一个git仓库
+    git status 查看当前状态
+    git add ./  添加到暂存区
+    git commit -m '' 提交到仓库中
+
+    git reset head 文件名    将暂存区的文件撤销到工作区
+    git rm -f 文件名         将仓库和工作区中的文件删除
+    git rm --cached 文件名   只将仓库中的文件删除 工作区的文件保留
